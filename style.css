@@ -1,0 +1,46 @@
+.container {
+  width: 350px;
+}
+
+.container .music-image {
+  width: 100%;
+}
+
+.container #controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container #controls i {
+  font-size: 20px;
+  color: purple;
+  margin-right: 20px;
+}
+
+.container #progress {
+  margin-bottom: 20px;
+}
+
+.container #progress #times {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container #progress #progress-bar {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
